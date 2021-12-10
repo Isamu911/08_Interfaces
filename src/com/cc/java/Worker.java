@@ -6,5 +6,10 @@ public class Worker extends HoneyBee{
         return "I'm a worker, I work all day!";
     }
 
+    @Override
+    public String fly() {
+        return "I belive i can fly!";
+    }
+
 
 }
